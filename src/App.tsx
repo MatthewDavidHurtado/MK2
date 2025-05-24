@@ -1,14 +1,12 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback } from 'react';
 import Header from './components/Header';
 import UserInputForm from './components/UserInputForm';
 import TreatmentDisplay from './components/TreatmentDisplay';
 import LoadingSpinner from './components/LoadingSpinner';
 import Footer from './components/Footer';
 import PersonalGuidanceCTA from './components/PersonalGuidanceCTA';
-import FacebookLikeGate from './components/FacebookLikeGate';
-import TopHeader from './components/TopHeader';
-import EbookDownload from './components/EbookDownload';
 import EbookPopup from './components/EbookPopup';
+import FacebookLikeGate from './components/FacebookLikeGate';
 import { getHealingTreatment, getDivineLawTreatment } from './services/geminiService';
 
 const App: React.FC = () => {
@@ -86,9 +84,7 @@ const App: React.FC = () => {
     <div className="flex flex-col min-h-screen items-center text-slate-800 p-4 md:p-8 selection:bg-sky-200 selection:text-sky-900">
       <EbookPopup />
       <FacebookLikeGate />
-      <TopHeader />
       <Header />
-      <EbookDownload />
       <main className="w-full max-w-3xl mx-auto bg-white/80 backdrop-blur-lg shadow-2xl rounded-xl p-6 md:p-10 my-8 flex-grow flex flex-col">
         {showRestartButton && (
           <div className="mb-6 text-center">
