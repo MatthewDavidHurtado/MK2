@@ -54,7 +54,7 @@ const EbookPopup: React.FC = () => {
             Discover the divine principles that unlock supernatural abundance in your life.
           </p>
           <a
-            href="https://www.thereisnothingbutgod.com/offers/wFkCkNJN"
+            href="https://drive.google.com/file/d/1W2EzDD-vLmbKAPYBpF2-iuguOfR73-qF/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block w-full py-3 px-6 bg-amber-400 hover:bg-amber-500 text-black rounded-lg shadow-md transition-colors duration-150 ease-in-out focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-amber-400 font-medium glow-button"
